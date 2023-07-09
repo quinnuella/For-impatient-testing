@@ -21,3 +21,23 @@ app.get('/section1', (req, res) => {
 app.get('/section2', (req, res) => {
   res.render('images2')
 })
+
+//9.6
+app.get('/section6', (req, res) => {
+  res.render('images6')
+})
+
+//9.10
+app.get('/section10', (req, res) => {
+  res.render('images10')
+})
+
+//9.11
+app.get('/section11', (req, res) => {
+  res.render('images11')
+})
+
+//9.12
+app.get('/section12', (req, res) => {
+  res.render('images12')
+})
