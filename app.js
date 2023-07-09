@@ -13,6 +13,11 @@ app.get('/', (req, res) => {
 })
 
 //9.1
-app.get('/chap1', (req, res) => {
+app.get('/section1', (req, res) => {
   res.render('images')
+})
+
+//9.2
+app.get('/section2', (req, res) => {
+  res.render('images2')
 })
