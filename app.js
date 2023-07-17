@@ -1,7 +1,13 @@
 const express = require('express')
+//const CryptoJS = require("crypto-js")
+
+//var cors = require('cors')
 const app = express ()
+
+
 app.listen(4000)
 
+//app.use(cors())
 //register view engine
 app.set('view engine', 'ejs')
 
@@ -40,4 +46,9 @@ app.get('/section11', (req, res) => {
 //9.12
 app.get('/section12', (req, res) => {
   res.render('images12')
+})
+
+//ex 01
+app.get('/exercise1', (req,res) => {
+  res.render('imgex1')
 })
